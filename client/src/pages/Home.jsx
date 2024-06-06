@@ -3,22 +3,12 @@ import "../App.css";
 
 function Home() {
   return (
-    <main>
-      <div id="home-page-content">
-        {/* <div>
-        <h1>Anthony Purificato</h1>
-        <h2>Front-End Web Developer</h2>
-      </div> */}
-        <div className="logo-padding">
+    <main className="d-flex flex-column justify-content-center align-items-center">
+      <div className="text-center">
           <a href="/about-me">
-            <img src={siteLogo} className="logo" alt="Site logo" />
+            <img src={siteLogo}  className="logo" alt="Anthony Purificato Website logo" />
           </a>
-          <p>Click logo to get started</p>
-        </div>
-        <div className="card">
-          {/* <h5 className="theme-color">Dont Forget to Download PWA</h5> */}
-          {/* <p>(download and access offline)</p> */}
-        </div>
+          <p className="text-suggestion pt-5">Click to get started</p>
       </div>
     </main>
   );
