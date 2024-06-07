@@ -112,7 +112,7 @@ button:focus-visible {
 
 /* HEADER/BRAND STYLES */
 header {
-  padding: 0 3%;
+  padding: 20px 3%;
 }
 
 .custom-toggler.navbar-toggler {
@@ -146,6 +146,21 @@ header nav a:hover {
 /* ABOUT ME PAGE CUSTOM STYLES */
 #profile-image {
   width: 50%; 
+}
+
+/* WORK PAGE CUSTOM STYLES */
+.card {
+  background-color: bisque;
+  color: #555dff;
+  height: 600px;
+}
+
+/* .card-img-top {
+  height: 370px;
+} */
+
+.card-body p {
+  color: #242424;
 }
 
 /* CONTACT ME PAGE STYLES */
@@ -196,7 +211,7 @@ header nav a:hover {
 
 /* FOOTER STYLES */
 footer {
-  padding: 0 3%;
+  padding: 20px 3%;
 
 }
 

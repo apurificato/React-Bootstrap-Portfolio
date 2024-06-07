@@ -2,10 +2,10 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="d-flex flex-column align-items-right justify-content-between">
+    <header className="d-flex flex-column">
       <nav className="navbar navbar-expand-lg">
-        <div className="container-fluid d-flex flex-row justify-content-between align-items-right">
-          <div className="logo-wrapper">
+        <div className="container-fluid">
+          <div className="logo-wrapper justify-content-end">
             <a href="/" className="navbar-brand">
               <img src="/AP-Logo.svg"></img>
             </a>
@@ -13,9 +13,9 @@ function Header() {
               <span className="navbar-toggler-icon"></span>
             </button>
           </div>
-          <div className="collapse navbar-collapse" id="navbarText">
+          <div className="collapse navbar-collapse justify-content-end" id="navbarText">
             <NavLink to="/about-me">About Me</NavLink>
-            <NavLink to="/work">My Work</NavLink>
+            <NavLink to="/my-work">My Work</NavLink>
             <NavLink to="/contact-me">Contact Me</NavLink>
             <NavLink to="/resume">Resume</NavLink>
           </div>

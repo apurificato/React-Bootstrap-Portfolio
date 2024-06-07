@@ -5,9 +5,9 @@ function ContactMe() {
   return (
     <>
       <Header />
-      <main className="d-flex flex-column justify-content-center align-items-center">
+      <h1 className="text-center pt-5">Contact Me</h1>
+      <main className="d-flex flex-column">
         <section id="contact-me">
-          <h1 className="p-5">Contact Me</h1>
           <h2>Reach Out to Me So We Can Build Something Cool Together.</h2>
           <div className="p-5">
             <form action="https://api.web3forms.com/submit" method="POST">
