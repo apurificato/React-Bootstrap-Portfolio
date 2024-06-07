@@ -5,11 +5,11 @@ function Work() {
   return (
     <>
       <Header />
-      <h1 className="text-center p-5">My Work</h1>
-      <main className="d-flex flex-column pb-5">
-        <h2 className="text-center">
+      <h1 className="text-center pt-5">My Work</h1>
+      <h2 className="text-center pt-3 px-5">
           Check Out The Websites and Applications I Have Built
         </h2>
+      <main className="d-flex flex-column justify-content-center align-items-center pb-5">
         <div className="d-flex flex-column container">
           <div className="row">
             <div className="col-12">
