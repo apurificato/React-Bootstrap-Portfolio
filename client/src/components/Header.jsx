@@ -7,7 +7,7 @@ function Header() {
         <div className="container-fluid">
           <div className="logo-wrapper justify-content-end">
             <a href="/" className="navbar-brand">
-              <img src="/AP-Logo.svg"></img>
+              <img className="brand-logo" src="/AP-Logo.svg"></img>
             </a>
             <button className="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
