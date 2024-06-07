@@ -151,8 +151,9 @@ header nav a:hover {
 /* WORK PAGE CUSTOM STYLES */
 .card {
   background-color: bisque;
-  color: #555dff;
-  height: 600px;
+  /* color: #555dff; */
+  color: #469a21;
+  height: 500px;
 }
 
 /* .card-img-top {
@@ -161,6 +162,32 @@ header nav a:hover {
 
 .card-body p {
   color: #242424;
+}
+
+.card-body h5 {
+  color: #242424;
+}
+
+.card-button {
+  border-radius: 8px;
+  border: 1px solid #242424;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #7ed957;
+  color: #242424;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.card-button:hover {
+  border-color: #7ed957;
+  background-color: #242424;
+  color: #7ed957;
+}
+.card-button:focus,
+.card-button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }
 
 /* CONTACT ME PAGE STYLES */
@@ -207,6 +234,24 @@ header nav a:hover {
 
 #contact-me form textarea {
   padding: 50px;
+}
+
+/* RESUME PAGE CUSTOM STYLES */
+@keyframes slide-in {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+#download-arrow {
+  height: 500px;
+  padding: 1.5em;
+  animation: slide-in 3000ms;
+  animation-iteration-count: 3;
+  filter: drop-shadow(0 0 2em bisque);
 }
 
 /* FOOTER STYLES */

@@ -6,7 +6,8 @@ function AboutMe() {
     <>
       <Header />
       <h1 className="p-5 text-center">About Me</h1>
-      <h2 className="text-center">My Name Is Anthony Purificato</h2>
+      <h2 className="text-center">Anthony Purificato</h2>
+      <h4 className="text-center">Front-End Developer</h4>
       <main className="d-flex flex-column justify-content-center align-items-center">
         <div className="text-center">
           <div className="p-5">
@@ -16,7 +17,7 @@ function AboutMe() {
               alt="AI generated profile image of Anthony Purificato"
             />
           </div>
-          <h2 className="p-3">I Program Dreams, One Project At a Time</h2>
+          <h2 className="p-3">Programming Dreams, One Project At a Time</h2>
         </div>
         <div className="container">
           <div className="row">

@@ -16,6 +16,10 @@
   color: #7ed957;
 }
 
+.theme-color-darker {
+  color: #469a21;
+}
+
 @keyframes grow-and-shrink {
   0% {
     transform: scale(1);

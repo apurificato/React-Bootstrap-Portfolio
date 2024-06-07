@@ -5,10 +5,16 @@ function ContactMe() {
   return (
     <>
       <Header />
-      <h1 className="text-center pt-5">Contact Me</h1>
-      <main className="d-flex flex-column">
+      <h1 className="text-center p-5">Contact Me</h1>
+      <main>
+        <h2 className="text-center">
+          Reach Out to Me So We Can Build Something Cool Together.
+        </h2>
         <section id="contact-me">
-          <h2>Reach Out to Me So We Can Build Something Cool Together.</h2>
+          <h4>
+            Just quickly submit this form and I will get back to you within 24
+            hours.
+          </h4>
           <div className="p-5">
             <form action="https://api.web3forms.com/submit" method="POST">
               <ul>
@@ -41,8 +47,8 @@ function ContactMe() {
             </form>
           </div>
           <h4>
-            Just quickly fill out and submit this form and I will get back to
-            you within 24 hours!
+            Thank you for visiting my site. I look forward to connecting with
+            you soon!
           </h4>
         </section>
       </main>
