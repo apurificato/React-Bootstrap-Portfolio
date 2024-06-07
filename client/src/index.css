@@ -33,6 +33,10 @@ body, main {
 }
 
 /* GLOBAL STYLES */
+.brand-logo:hover {
+  filter: drop-shadow(0 0 2em bisque);
+}
+
 a {
   color: bisque;
 }
@@ -152,8 +156,7 @@ header nav a:hover {
 .card {
   background-color: bisque;
   /* color: #555dff; */
-  color: #469a21;
-  height: 500px;
+  color: #242424;
 }
 
 /* .card-img-top {
@@ -167,6 +170,11 @@ header nav a:hover {
 .card-body h5 {
   color: #242424;
 }
+
+/* .image-size-container {
+  height: 500px;
+
+} */
 
 .card-button {
   border-radius: 8px;
@@ -250,7 +258,7 @@ header nav a:hover {
   height: 500px;
   padding: 1.5em;
   animation: slide-in 3000ms;
-  animation-iteration-count: 3;
+  animation-iteration-count: 1;
   filter: drop-shadow(0 0 2em bisque);
 }
 
