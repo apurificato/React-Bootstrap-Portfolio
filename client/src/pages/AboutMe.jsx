@@ -5,10 +5,10 @@ function AboutMe() {
   return (
     <>
       <Header />
-      <h1 className="p-5 text-center">About Me</h1>
-      <h2 className="text-center">Anthony Purificato</h2>
+      <h1 className="pt-5 text-center">About Me</h1>
+      <h2 className="text-center pt-3 px-5">Anthony Purificato</h2>
       <h4 className="text-center">Front-End Developer</h4>
-      <main className="d-flex flex-column justify-content-center align-items-center">
+      <main className="d-flex flex-column justify-content-center align-items-center pb-5">
         <div className="text-center">
           <div className="p-5">
             <img
@@ -17,14 +17,15 @@ function AboutMe() {
               alt="AI generated profile image of Anthony Purificato"
             />
           </div>
-          <h2 className="p-3">Programming Dreams, One Project At a Time</h2>
+          <h2 className="p-5">Programming Dreams, One Project At a Time</h2>
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-md-6 p-5">
+            <div className="col-md-6 px-5">
               <p>
+              <span className="theme-color">
                 I love creating websites and digital applications. Lets just say
-                its kinda my passion. When I started working within the creative
+                its kinda my passion.</span> When I started working within the creative
                 and technology space, I quickly realized that this was a field
                 that I wanted to stay in. My technical skills were built from
                 humble begginings, starting with a simple WordPress blog website
@@ -43,7 +44,7 @@ function AboutMe() {
                 social media posting, and Search Engine Optimization (SEO).
               </p>
             </div>
-            <div className="col-md-6 p-5">
+            <div className="col-md-6 px-5">
               <p>
                 Recently, I completed a Full Stack Coding Bootcamp through
                 Rutgers/EdX, which has helped bridge the gap from my previous

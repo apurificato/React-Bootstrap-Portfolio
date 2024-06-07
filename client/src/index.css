@@ -275,6 +275,10 @@ footer .brand {
   align-items: center;
 }
 
+footer p {
+  color: bisque;
+}
+
 a .footer-logo-item {
   height: 30px;
 }

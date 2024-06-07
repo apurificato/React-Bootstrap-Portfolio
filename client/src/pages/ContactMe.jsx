@@ -5,11 +5,11 @@ function ContactMe() {
   return (
     <>
       <Header />
-      <h1 className="text-center p-5">Contact Me</h1>
-      <main>
-        <h2 className="text-center">
+      <h1 className="text-center pt-5">Contact Me</h1>
+      <h2 className="text-center pt-3 px-5">
           Reach Out to Me So We Can Build Something Cool Together.
         </h2>
+      <main className="d-flex flex-column text-center justify-content-center align-items-center pb-5">
         <section id="contact-me">
           <h4>
             Just quickly submit this form and I will get back to you within 24
