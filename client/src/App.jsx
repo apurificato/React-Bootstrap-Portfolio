@@ -3,6 +3,7 @@ import {Routes, Route} from 'react-router-dom'
 
 import Home from './pages/Home'
 import AboutMe from './pages/AboutMe'
+import Work from './pages/Work'
 import ContactMe from './pages/ContactMe'
 import Resume from './pages/Resume'
 
@@ -18,6 +19,8 @@ function App() {
           <Route path="/" element={<Home />} />
 
           <Route path="/about-me" element={<AboutMe />} />
+
+          <Route path="/my-work" element={<Work />} />
 
           <Route path="/contact-me" element={<ContactMe />} />
 

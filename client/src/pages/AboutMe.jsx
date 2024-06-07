@@ -5,13 +5,14 @@ function AboutMe() {
   return (
     <>
       <Header />
+      <h1 className="p-5 text-center">About Me</h1>
+      <h2 className="text-center">My Name Is Anthony Purificato</h2>
       <main className="d-flex flex-column justify-content-center align-items-center">
         <div className="text-center">
-          <h1 className="p-3">About Me</h1>
           <div className="p-5">
             <img
               id="profile-image"
-              src="Anthony-Purificato-Profile-Photo-Sketch-Style.png"
+              src="Anthony-Purificato-Profile-Photo-Sketch-Style-Dark.png"
               alt="AI generated profile image of Anthony Purificato"
             />
           </div>
