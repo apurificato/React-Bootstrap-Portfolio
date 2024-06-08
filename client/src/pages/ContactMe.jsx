@@ -30,15 +30,15 @@ function ContactMe() {
                 />
                 <li>
                   <label htmlFor="name">Enter your name</label>
-                  <input type="text" id="name" name="name" required />
+                  <input className="w-100" type="text" id="name" name="name" required />
                 </li>
                 <li>
                   <label htmlFor="email">Enter email</label>
-                  <input type="email" id="mail" name="email" required />
+                  <input className="w-100" type="email" id="mail" name="email" required />
                 </li>
                 <li>
                   <label htmlFor="msg">Enter your message</label>
-                  <textarea id="msg" name="message" required></textarea>
+                  <textarea className="w-100" id="msg" name="message" required></textarea>
                 </li>
                 <li className="button">
                   <button type="submit">Submit</button>

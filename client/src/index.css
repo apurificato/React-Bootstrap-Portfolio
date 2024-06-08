@@ -121,19 +121,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
 /* HEADER/BRAND STYLES */
 header {
   padding: 20px 3%;
@@ -169,7 +156,7 @@ header nav a:hover {
 
 /* ABOUT ME PAGE CUSTOM STYLES */
 #profile-image {
-  width: 50%; 
+  width: 75%; 
 }
 
 /* WORK PAGE CUSTOM STYLES */
@@ -307,6 +294,73 @@ a .footer-logo-item {
 
 
 /* RESPONSIVE / MOBILE STYLES */
-@media screen and (min-width: 768px) {
 
+@media screen and (min-device-width: 350px) and (max-device-width: 768px) {
+  h1 {
+    font-size: 42px;
+    color: #7ed957;
+  }
+  
+  h2 {
+    font-size: 30px;
+    color: bisque;
+  }
+  
+  h3 {
+    font-size: 26px;
+    color: aliceblue;
+  }
+  
+  h4 {
+    font-size: 20px;
+    color: aliceblue;
+  }
+  
+  h5 {
+    font-size: 18px;
+    color: aliceblue;
+  }
+  
+  p {
+    font-size: 14px;
+    color: aliceblue;
+  }
+
+  .navbar-toggler {
+    justify-content: end;
+  }
+
+  .navbar-nav {
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .navbar-nav a {
+    padding: 10px;
+  }
+
+  #profile-image {
+    width: 100%;
+  }
+
+  .footer .brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-icons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-icons a {
+    justify-content: space-between;
+    padding: 0 25px;
+  }
+
+  .footer .brand p {
+    font-size: 12px;
+  }
 }
