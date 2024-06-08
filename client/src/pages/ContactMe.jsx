@@ -11,11 +11,11 @@ function ContactMe() {
         </h2>
       <main className="d-flex flex-column text-center justify-content-center align-items-center pb-5">
         <section id="contact-me">
-          <h4>
+          <h4 className="px-5">
             Just quickly submit this form and I will get back to you within 24
             hours.
           </h4>
-          <div className="p-5">
+          <div className="py-5">
             <form action="https://api.web3forms.com/submit" method="POST">
               <ul>
                 <input
@@ -46,7 +46,7 @@ function ContactMe() {
               </ul>
             </form>
           </div>
-          <h4>
+          <h4 className="px-5">
             Thank you for visiting my site. I look forward to connecting with
             you soon!
           </h4>
