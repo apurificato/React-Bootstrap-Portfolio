@@ -1,17 +1,17 @@
-import { useState } from "react";
-import { createContext } from "react";
+// import { useState } from "react";
+// import { createContext } from "react";
 
 import { NavLink } from "react-router-dom";
-import ReactSwitch from "react-switch";
+// import ReactSwitch from "react-switch";
 
-export const ThemeContext = createContext("dark");
+// export const ThemeContext = createContext("dark");
 
 function Header() {
-  const [theme, setTheme] = useState("dark");
+  // const [theme, setTheme] = useState("dark");
 
-  const toggleTheme = () => {
-    setTheme((curr) => (curr === "light" ? "dark" : "light"));
-  };
+  // const toggleTheme = () => {
+  //   setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  // };
 
   return (
       <header className="d-flex flex-column">
@@ -42,10 +42,10 @@ function Header() {
               <NavLink to="/contact-me">Contact Me</NavLink>
               <NavLink to="/resume">Resume</NavLink>
             </div>
-            <div className="switch d-flex align-items-center px-5">
+            {/* <div className="switch d-flex align-items-center px-5">
               <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
-              {/* <label className="px-2">{theme === "light" ? "Light Mode" : "Dark Mode"}</label> */}
-            </div>
+              <label className="px-2">{theme === "light" ? "Light Mode" : "Dark Mode"}</label>
+            </div> */}
           </div>
         </nav>
       </header>

@@ -7,8 +7,8 @@ function Work() {
       <Header />
       <h1 className="text-center pt-5">My Work</h1>
       <h2 className="text-center pt-3 px-5">
-          Check Out The Websites and Applications I Have Built
-        </h2>
+        Check Out The Websites and Applications That I&apos;ve Built
+      </h2>
       <main className="d-flex flex-column justify-content-center align-items-center pb-5">
         <div className="d-flex flex-column container">
           <div className="row">
@@ -30,11 +30,11 @@ function Work() {
                 <div className="card-body">
                   <p className="card-text py-3">
                     Full-Stack Mock Online Marketplace and Item Listing/Auction
-                    Website. This project was the first larger-scale website Ive
-                    built using React and there were some interesting struggles
-                    attempting to get GraphQL data to query and mutate properly.
-                    Some extra context files/providers needed to be setup in
-                    order to make certain functionality happen.
+                    Website. This project was the first larger-scale website
+                    I&apos;ve built using React and there were some interesting
+                    struggles attempting to get GraphQL data to query and mutate
+                    properly. Some extra context files/providers needed to be
+                    setup in order to make certain functionality happen.
                   </p>
                   <div className="d-flex flex-column bg-dark p-3 rounded">
                     <h5 className="text-center text-light">
@@ -60,7 +60,7 @@ function Work() {
                   </div>
                   <div className="d-flex flex-row justify-content-around p-3">
                     <a href="https://bidding-site-o6l3.onrender.com/">
-                      <button className="card-button">Live Site/Demo</button>
+                      <button className="card-button">Live Demo</button>
                     </a>
                     <a href="https://github.com/apurificato/nidhi_marketplace">
                       <button className="card-button">GitHub Repo</button>
@@ -128,7 +128,7 @@ function Work() {
                   </div>
                   <div className="d-flex flex-row justify-content-around p-3">
                     <a href="https://win-big-76ecc78832f3.herokuapp.com/">
-                      <button className="card-button">Live Site/Demo</button>
+                      <button className="card-button">Live Demo</button>
                     </a>
                     <a href="https://github.com/apurificato/WinBig-Digital-Casino">
                       <button className="card-button">GitHub Repo</button>
@@ -163,7 +163,8 @@ function Work() {
                     along with basic JavaScript, HTML and CSS to give users a
                     cool place to find some interesting recipe ideas, based on
                     form inputs. The CSS styling was done through CSS Bulma
-                    Framework, something never used before this project.
+                    Framework, something I&apos;ve never used before this
+                    project.
                   </p>
                   <div className="d-flex flex-column bg-dark p-3 rounded">
                     <h5 className="text-center text-light">
@@ -183,7 +184,7 @@ function Work() {
                   </div>
                   <div className="d-flex flex-row justify-content-around p-3">
                     <a href="https://apurificato.github.io/Wine-and-Dine/">
-                      <button className="card-button">Live Site/Demo</button>
+                      <button className="card-button">Live Demo</button>
                     </a>
                     <a href="https://github.com/apurificato/Wine-and-Dine">
                       <button className="card-button">GitHub Repo</button>
@@ -246,7 +247,7 @@ function Work() {
                   </div>
                   <div className="d-flex flex-row justify-content-around p-3">
                     <a href="https://tech-notes-he04.onrender.com/">
-                      <button className="card-button">Live Site/Demo</button>
+                      <button className="card-button">Live Demo</button>
                     </a>
                     <a href="https://github.com/apurificato/tech.notes">
                       <button className="card-button">GitHub Repo</button>
@@ -298,7 +299,7 @@ function Work() {
                   </div>
                   <div className="d-flex flex-row justify-content-around p-3">
                     <a href="https://note-taker-s8qu.onrender.com/">
-                      <button className="card-button">Live Site/Demo</button>
+                      <button className="card-button">Live Demo</button>
                     </a>
                     <a href="https://github.com/apurificato/Note-Taker">
                       <button className="card-button">GitHub Repo</button>
@@ -334,11 +335,11 @@ function Work() {
                     employee management software application. The user can then
                     engage in a CRUD (Create, Read, Update, and Delete) Process
                     with the database. Since a node package like Sequelize was
-                    NOT used here, the Schema, Query, and Seed files were set up
-                    manually. Inquirer Prompt node package was also used,
-                    allowing for the user to run a prompt series of questions in
-                    the Command Terminal; input recieved there dynamically
-                    updates the database.
+                    NOT used here, I set up the Schema, Query, and Seed files
+                    manually. Inquirer Prompt node package was also used in this
+                    project, allowing for the user to run a prompt series of
+                    questions in the Command Terminal; input recieved there
+                    dynamically updates the database.
                   </p>
                   <div className="d-flex flex-column bg-dark p-3 rounded">
                     <h5 className="text-center text-light">

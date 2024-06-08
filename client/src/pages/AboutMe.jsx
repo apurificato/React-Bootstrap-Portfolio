@@ -23,32 +23,35 @@ function AboutMe() {
           <div className="row">
             <div className="col-md-6 px-5">
               <p>
-              <span className="theme-color">
-                I love creating websites and digital applications. Lets just say
-                its kinda my passion.</span> When I started working within the creative
-                and technology space, I quickly realized that this was a field
-                that I wanted to stay in. My technical skills were built from
-                humble begginings, starting with a simple WordPress blog website
-                for an Online/Blog Writing course that I completed at Rutgers
-                University, blending various creative interests of mine (namely
-                writing and web design). This is where I started to see some
-                sort of path forward into the tech space, as that website
-                project helped me land a Content Specialist role at a Creative
-                Agency in NJ soon after graduating from Rutgers.
+                <span className="theme-color">
+                  I love creating websites and digital applications. Let&apos;s
+                  just say it&apos;s kinda my thing.
+                </span>{" "}
+                When I started working within the creative and technology space,
+                I quickly realized that this was a field that I wanted to stay
+                in. My technical skills were built from humble begginings,
+                starting with a simple WordPress blog website for an Online/Blog
+                Writing course that I completed at Rutgers University. The
+                course blended various creative interests of mine (namely
+                writing and web design) and this was where I started to see some
+                sort of path forward into the tech space. That little website
+                helped me land a Content Specialist role at a Creative Agency in
+                NJ soon after graduating from Rutgers.
               </p>
               <p>
                 I worked at that role for almost 3 years, learning a ton about
-                publishing on websites and applications, both small and large in
+                publishing websites and applications, both small and large in
                 scale. I also broke into the digital marketing space a bit
                 through work I did with publishing/developing email templates,
-                social media posting, and Search Engine Optimization (SEO).
+                social media posting, and Search Engine Optimization (SEO) there
+                and moving forward.
               </p>
             </div>
             <div className="col-md-6 px-5">
               <p>
-                Recently, I completed a Full Stack Coding Bootcamp through
+                Just recently, I completed a Full Stack Coding Bootcamp through
                 Rutgers/EdX, which has helped bridge the gap from my previous
-                web and content management/publishing experience to web
+                content management and publishing experience to actual web
                 development/programming skills. My previous professional
                 experience enabled me to learn the ins and outs of websites on
                 various platforms and content management systems. As I completed
@@ -61,11 +64,11 @@ function AboutMe() {
                   My current specialty is Front-End Development with a focus on
                   the following technologies: HTML, CSS (and CSS Frameworks),
                   and JavaScript (including React).
-                </span>{" "}
-                Although my current specialty is Front-End, I have some
-                additional knowledge and experience working with Back-End
-                technologies, including Node.js, SQL (PostgreSQL), NoSQL
-                (MongoDB), and Express.js.
+                </span>
+                Although I am well versed in Front-End Development and
+                Responsive Web Design, I have some additional knowledge and
+                experience working with Back-End technologies, including
+                Node.js, SQL (PostgreSQL), NoSQL (MongoDB), and Express.js.
               </p>
             </div>
           </div>
