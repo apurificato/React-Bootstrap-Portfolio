@@ -1,7 +1,20 @@
+import { useContext } from "react";
+import { ThemeContext } from "../App";
+
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 function AboutMe() {
+  const { theme, toggleTheme } = useContext(ThemeContext);
+
+  const getImageSource = () => {
+    if (theme === "dark") {
+      return "Anthony-Purificato-Profile-Photo-Sketch-Style-Dark.png";
+    } else {
+      return "Anthony-Purificato-Profile-Photo-Sketch-Style-Light.png";
+    }
+  };
+
   return (
     <>
       <Header />
@@ -15,8 +28,9 @@ function AboutMe() {
           <div className="p-5">
             <img
               id="profile-image"
-              src="Anthony-Purificato-Profile-Photo-Sketch-Style-Dark.png"
+              src={getImageSource()}
               alt="AI generated profile image of Anthony Purificato"
+              onClick={toggleTheme}
             />
           </div>
           <h2 className="p-5">Programming Dreams, One Project At a Time</h2>
