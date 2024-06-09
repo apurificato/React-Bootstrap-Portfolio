@@ -31,7 +31,7 @@ function AboutMe() {
                 </span>{" "}
                 When I started working within the creative and technology space,
                 I quickly realized that this was a field that I wanted to stay
-                in. My technical skills were built from humble begginings,
+                in. My technical skills were built from humble beginnings,
                 starting with a simple WordPress blog website for an Online/Blog
                 Writing course that I completed at Rutgers University. The
                 course blended various creative interests of mine (namely
