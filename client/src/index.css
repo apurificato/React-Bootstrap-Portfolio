@@ -70,32 +70,26 @@ a:hover {
 }
 
 h1 {
-  font-size: 48px;
   color: #7ed957;
 }
 
 h2 {
-  font-size: 40px;
   color: bisque;
 }
 
 h3 {
-  font-size: 32px;
   color: aliceblue;
 }
 
 h4 {
-  font-size: 26px;
   color: aliceblue;
 }
 
 h5 {
-  font-size: 20px;
   color: aliceblue;
 }
 
 p {
-  font-size: 16px;
   color: aliceblue;
 }
 
@@ -154,21 +148,11 @@ header nav a:hover {
   color: #7ed957;
 }
 
-/* ABOUT ME PAGE CUSTOM STYLES */
-#profile-image {
-  width: 75%; 
-}
-
 /* WORK PAGE CUSTOM STYLES */
 .card {
   background-color: bisque;
-  /* color: #555dff; */
   color: #242424;
 }
-
-/* .card-img-top {
-  height: 370px;
-} */
 
 .card-body p {
   color: #242424;
@@ -177,11 +161,6 @@ header nav a:hover {
 .card-body h5 {
   color: #242424;
 }
-
-/* .image-size-container {
-  height: 500px;
-
-} */
 
 .card-button {
   border-radius: 8px;
@@ -274,7 +253,6 @@ header nav a:hover {
 /* FOOTER STYLES */
 footer {
   padding: 20px 3%;
-
 }
 
 footer .brand {
@@ -293,37 +271,78 @@ a .footer-logo-item {
 }
 
 
-/* RESPONSIVE / MOBILE STYLES */
+/* DESKTOP RESPONSIVE STYLES */
+@media screen and (min-width: 769px) {
+  h1 {
+    font-size: 48px;
+  }
+  
+  h2 {
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-size: 32px;
+  }
+  
+  h4 {
+    font-size: 26px;
+  }
+  
+  h5 {
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
 
-@media screen and (min-device-width: 350px) and (max-device-width: 768px) {
+  /* AboutMe Page Custom Style */
+  #profile-image {
+    width: 75%; 
+  }
+
+  .footer-icons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-icons a {
+    justify-content: space-between;
+    padding: 0 100px;
+  }
+
+  .footer .brand p {
+    font-size: 16px;
+  }
+}
+
+
+/* RESPONSIVE / MOBILE STYLES */
+@media screen and (min-width: 350px) and (max-width: 768px) {
+  /* Global Styles */
   h1 {
     font-size: 42px;
-    color: #7ed957;
   }
   
   h2 {
     font-size: 30px;
-    color: bisque;
   }
   
   h3 {
     font-size: 26px;
-    color: aliceblue;
   }
   
   h4 {
     font-size: 20px;
-    color: aliceblue;
   }
   
   h5 {
     font-size: 18px;
-    color: aliceblue;
   }
   
   p {
     font-size: 14px;
-    color: aliceblue;
   }
 
   .navbar-toggler {
@@ -339,6 +358,7 @@ a .footer-logo-item {
     padding: 10px;
   }
 
+  /* AboutMe Page Custom Styles */
   #profile-image {
     width: 100%;
   }
@@ -362,5 +382,33 @@ a .footer-logo-item {
 
   .footer .brand p {
     font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 450px) {
+  #card-button-parent {
+    display: flex;
+    flex-direction: column!important;
+    text-align: center;
+  }
+
+  #card-button-parent a {
+    padding: 10px;
+  }
+
+  #card-button-parent button {
+    padding: 10px;
+  }
+
+  .col-2 img {
+    width: 30px;
+  }
+
+  .col-3 img {
+    width: 30px;
+  }
+
+  .col-4 img {
+    width: 30px;
   }
 }
