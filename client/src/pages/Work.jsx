@@ -36,8 +36,8 @@ function Work() {
                     properly. Some extra context files/providers needed to be
                     setup in order to make certain functionality happen.
                   </p>
-                  <div className="d-flex flex-column bg-dark p-3 rounded">
-                    <h5 className="text-center text-light">
+                  <div className="tech-card-container d-flex flex-column p-3 rounded">
+                    <h5 className="text-center">
                       Built With MERNG Stack Technology
                     </h5>
                     <div className="d-flex flex-row justify-content-around py-3">
@@ -101,8 +101,8 @@ function Work() {
                     into React. It was also one of the first major projects that
                     I have done setting up user authentication routes.
                   </p>
-                  <div className="d-flex flex-column bg-dark p-3 rounded">
-                    <h5 className="text-center text-light">
+                  <div className="tech-card-container d-flex flex-column p-3 rounded">
+                    <h5 className="text-center">
                       Built With Full-Stack Technology
                     </h5>
                     <div className="d-flex flex-row justify-content-around py-3">
@@ -172,8 +172,8 @@ function Work() {
                     Framework, something I&apos;ve never used before this
                     project.
                   </p>
-                  <div className="d-flex flex-column bg-dark p-3 rounded">
-                    <h5 className="text-center text-light">
+                  <div className="tech-card-container d-flex flex-column p-3 rounded">
+                    <h5 className="text-center">
                       Built With The Following Front-End Technology
                     </h5>
                     <div className="d-flex flex-row justify-content-around py-3">
@@ -226,8 +226,8 @@ function Work() {
                     server and enable API routes for CRUD (Create, Read, Update,
                     and Delete) Process in a PostgreSQL database.
                   </p>
-                  <div className="d-flex flex-column bg-dark p-3 rounded">
-                    <h5 className="text-center text-light">
+                  <div className="tech-card-container d-flex flex-column p-3 rounded">
+                    <h5 className="text-center">
                       Built With Full-Stack Technology
                     </h5>
                     <div className="d-flex flex-row justify-content-around py-3">
@@ -293,8 +293,8 @@ function Work() {
                     array) gets updated with new note post objects that get
                     permanently saved until deleted.
                   </p>
-                  <div className="d-flex flex-column bg-dark p-3 rounded">
-                    <h5 className="text-center text-light">
+                  <div className="tech-card-container d-flex flex-column p-3 rounded">
+                    <h5 className="text-center">
                       Built With the Following Front-End Technology
                     </h5>
                     <div className="d-flex flex-row justify-content-around py-3">
@@ -356,8 +356,8 @@ function Work() {
                     questions in the Command Terminal; input recieved there
                     dynamically updates the database.
                   </p>
-                  <div className="d-flex flex-column bg-dark p-3 rounded">
-                    <h5 className="text-center text-light">
+                  <div className="tech-card-container d-flex flex-column p-3 rounded">
+                    <h5 className="text-center">
                       Built With the Following Back-End Technologies
                     </h5>
                     <div className="d-flex flex-row justify-content-around py-3">

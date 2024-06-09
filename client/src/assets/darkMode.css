@@ -1,0 +1,182 @@
+/* DARK MODE THEME - GLOBAL STYLES */
+#dark {
+  background-color: #242424;
+}
+
+#dark .theme-color {
+  color: #7ed957;
+}
+
+#dark .text-suggestion {
+  color: bisque;
+}
+
+#dark .switch label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8cd1ff;
+}
+
+#dark .logo:hover {
+  filter: drop-shadow(0 0 2em bisque);
+}
+
+#dark .brand-logo:hover {
+  filter: drop-shadow(0 0 2em bisque);
+}
+
+#dark a {
+  color: bisque;
+}
+
+#dark a:hover {
+  color: #7ed957;
+}
+
+#dark .active {
+  color: #7ed957 !important;
+}
+
+#dark h1 {
+  color: #7ed957;
+}
+
+#dark h2 {
+  color: bisque;
+}
+
+#dark h3 {
+  color: aliceblue;
+}
+
+#dark h4 {
+  color: aliceblue;
+}
+
+#dark h5 {
+  color: aliceblue;
+}
+
+#dark p {
+  color: aliceblue;
+}
+
+#dark button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #7ed957;
+  color: #242424;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+#dark button:hover {
+  border-color: #242424;
+  background-color: #242424;
+  color: #7ed957;
+}
+#dark button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* HEADER STYLES */
+#dark .brand-logo:hover {
+  filter: drop-shadow(0 0 2em bisque);
+}
+
+#dark header nav a {
+  color: bisque;
+}
+
+#dark header nav a:hover {
+  color: #7ed957;
+}
+
+#dark .custom-toggler.navbar-toggler {
+  background-color: #242424;
+  border-color: bisque;
+}
+
+#dark .custom-toggler.navbar-toggler:hover,
+:active {
+  border-color: #7ed957;
+  color: #7ed957;
+}
+
+/* ABOUT PAGE STYLES */
+#dark #profile-image {
+  filter: drop-shadow(0 -25px 5em aliceblue);
+}
+
+/* #dark #profile-image:hover {
+  filter: drop-shadow(0 0 5em aliceblue);
+} */
+
+/* WORK PAGE CUSTOM STYLES */
+#dark .card {
+  background-color: bisque;
+  color: #242424;
+}
+
+#dark .card-body p {
+  color: #242424;
+}
+
+#dark .card-body h5 {
+  color: #242424;
+}
+
+#dark .card-title {
+  color: #242424;
+}
+
+#dark .tech-card-container {
+  background-color: #242424;
+}
+
+#dark .tech-card-container h5 {
+  color: aliceblue;
+}
+
+#dark .card-button {
+  background-color: #7ed957;
+  color: #242424;
+}
+#dark .card-button:hover {
+  background-color: #242424;
+  color: #7ed957;
+  border-color: #242424;
+}
+
+/* CONTACT ME PAGE STYLES */
+#dark #contact-me form {
+  border: 1px solid bisque;
+}
+
+#dark #contact-me form label {
+  color: bisque;
+}
+
+#dark #contact-me form input,
+textarea {
+  border: 1px solid bisque;
+  background-color: #242424;
+  color: #7ed957;
+}
+
+/* RESUME PAGE STYLES */
+#dark #download-arrow {
+  height: 500px;
+  padding: 1.5em;
+  animation: slide-in 3000ms;
+  animation-iteration-count: 1;
+  filter: drop-shadow(0 0 2em bisque);
+}
+
+/* FOOTER STYLES */
+#dark footer p {
+  color: bisque;
+}

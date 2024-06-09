@@ -4,21 +4,6 @@
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em bisque);
-}
-
-.text-suggestion {
-  color: bisque;
-}
-
-.theme-color {
-  color: #7ed957;
-}
-
-.theme-color-darker {
-  color: #469a21;
-}
 
 @keyframes grow-and-shrink {
   0% {

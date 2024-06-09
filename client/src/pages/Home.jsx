@@ -1,5 +1,5 @@
 import siteLogo from "/AP-Logo.svg";
-import "../App.css";
+import "../assets/App.css";
 
 function Home() {
   return (
