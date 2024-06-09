@@ -50,15 +50,18 @@ function Work() {
                       <div className="col-2 text-center">
                         <img src="react.svg" height="50px" />
                       </div>
-                      <div className="col-2 text-center">
-                        <img src="Node-js-icon.svg" height="50px" />
-                      </div>
-                      <div className="col-2 text-center">
-                        <img src="GraphQL-icon.svg" height="50px" />
-                      </div>
+                        <div className="col-2 text-center">
+                          <img src="Node-js-icon.svg" height="50px" />
+                        </div>
+                        <div className="col-2 text-center">
+                          <img src="GraphQL-icon.svg" height="50px" />
+                        </div>
                     </div>
                   </div>
-                  <div className="d-flex flex-row justify-content-around p-3">
+                  <div
+                    id="card-button-parent"
+                    className="d-flex flex-row justify-content-around py-3"
+                  >
                     <a href="https://bidding-site-o6l3.onrender.com/">
                       <button className="card-button">Live Demo</button>
                     </a>
@@ -126,7 +129,10 @@ function Work() {
                       </div>
                     </div>
                   </div>
-                  <div className="d-flex flex-row justify-content-around p-3">
+                  <div
+                    id="card-button-parent"
+                    className="d-flex flex-row justify-content-around py-3"
+                  >
                     <a href="https://win-big-76ecc78832f3.herokuapp.com/">
                       <button className="card-button">Live Demo</button>
                     </a>
@@ -168,7 +174,7 @@ function Work() {
                   </p>
                   <div className="d-flex flex-column bg-dark p-3 rounded">
                     <h5 className="text-center text-light">
-                      Built With This Front-End Technology Stack
+                      Built With The Following Front-End Technology
                     </h5>
                     <div className="d-flex flex-row justify-content-around py-3">
                       <div className="col-4 text-center">
@@ -182,7 +188,10 @@ function Work() {
                       </div>
                     </div>
                   </div>
-                  <div className="d-flex flex-row justify-content-around p-3">
+                  <div
+                    id="card-button-parent"
+                    className="d-flex flex-row justify-content-around py-3"
+                  >
                     <a href="https://apurificato.github.io/Wine-and-Dine/">
                       <button className="card-button">Live Demo</button>
                     </a>
@@ -245,7 +254,10 @@ function Work() {
                       </div>
                     </div>
                   </div>
-                  <div className="d-flex flex-row justify-content-around p-3">
+                  <div
+                    id="card-button-parent"
+                    className="d-flex flex-row justify-content-around py-3"
+                  >
                     <a href="https://tech-notes-he04.onrender.com/">
                       <button className="card-button">Live Demo</button>
                     </a>
@@ -283,7 +295,7 @@ function Work() {
                   </p>
                   <div className="d-flex flex-column bg-dark p-3 rounded">
                     <h5 className="text-center text-light">
-                      Built With MERNG Stack Technology
+                      Built With the Following Front-End Technology
                     </h5>
                     <div className="d-flex flex-row justify-content-around py-3">
                       <div className="col-4 text-center">
@@ -297,7 +309,10 @@ function Work() {
                       </div>
                     </div>
                   </div>
-                  <div className="d-flex flex-row justify-content-around p-3">
+                  <div
+                    id="card-button-parent"
+                    className="d-flex flex-row justify-content-around py-3"
+                  >
                     <a href="https://note-taker-s8qu.onrender.com/">
                       <button className="card-button">Live Demo</button>
                     </a>
@@ -343,7 +358,7 @@ function Work() {
                   </p>
                   <div className="d-flex flex-column bg-dark p-3 rounded">
                     <h5 className="text-center text-light">
-                      Built With MERNG Stack Technology
+                      Built With the Following Back-End Technologies
                     </h5>
                     <div className="d-flex flex-row justify-content-around py-3">
                       <div className="col-3 text-center">
@@ -363,7 +378,10 @@ function Work() {
                       </div>
                     </div>
                   </div>
-                  <div className="d-flex flex-row justify-content-around p-3">
+                  <div
+                    id="card-button-parent"
+                    className="d-flex flex-row justify-content-around py-3"
+                  >
                     <a href="https://github.com/apurificato/Employee-Management-Application">
                       <button className="card-button">GitHub Repo</button>
                     </a>
