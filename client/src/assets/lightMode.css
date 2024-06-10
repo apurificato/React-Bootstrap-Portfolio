@@ -109,7 +109,7 @@ button:focus-visible {
 
 /* ABOUT PAGE STYLES */
 #light #profile-image {
-  filter: drop-shadow(0 -25px 5em gold);
+  filter: drop-shadow(0 0 5em gold);
 }
 
 /* WORK PAGE CUSTOM STYLES */
