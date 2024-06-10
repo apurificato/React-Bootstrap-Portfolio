@@ -8,6 +8,8 @@ This front-end, simple portfolio website was built using Vite and React, which e
 
 The CSS Bootstrap Framework was used here throughout the site because of how quick it enabled me to set up certain elements and design choices, such as using card containers for my Work Page. However, most of the website was custom styled, even with CSS as I still had to set up media queries, combined with Flexbox and Grid display properties in order to get elements to display the way I wanted to. Additional JavaScript was also applied so that my website's Light and Dark mode themes could be enabled and also toggled back and forth. This was a fun project to practice and apply some of my Front-End skills, including React, which I have come to enjoy using.
 
+![Anthony-Purificato-Web-Portfolio-About-Me-Screenshot](https://github.com/apurificato/React-Bootstrap-Portfolio/assets/161912493/09efc740-16aa-4f5e-a756-b19c6e9edc8b)
+
 ## Project Structure
 - /client
     - /node_modules
