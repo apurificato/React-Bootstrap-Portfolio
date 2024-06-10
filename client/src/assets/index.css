@@ -129,16 +129,6 @@ header nav a {
   padding: 50px;
 }
 
-/* RESUME PAGE CUSTOM STYLES */
-@keyframes slide-in {
-  from {
-    transform: translateY(-100%);
-  }
-  to {
-    transform: translateY(0%);
-  }
-}
-
 /* FOOTER STYLES */
 footer {
   padding: 20px 3%;
@@ -185,6 +175,11 @@ a .footer-logo-item {
   /* AboutMe Page Custom Style */
   #profile-image {
     width: 75%; 
+  }
+
+  /* Resume Page Styles */
+  #resume-image {
+    width: 50%;
   }
 
   .footer-icons {
@@ -251,6 +246,12 @@ a .footer-logo-item {
     width: 100%;
   }
 
+  /* Resume Page Styles */
+  #resume-image {
+    width: 100%;
+  }
+
+  /* Footer Element Styes */
   .footer .brand {
     display: flex;
     flex-direction: column;
@@ -298,5 +299,11 @@ a .footer-logo-item {
 
   .col-4 img {
     width: 30px;
+  }
+
+  /* Resume Page Styles */
+  #resume-image {
+    width: 100%;
+    cursor: pointer;
   }
 }
