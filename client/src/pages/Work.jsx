@@ -22,7 +22,7 @@ function Work() {
                   target="_blank"
                 >
                   <img
-                    src="nidhi_marketplace-home-page-screenshot.png"
+                    src="nidhi_marketplace-home-page-screenshot.webp"
                     className="card-img-top img-fluid"
                     alt="..."
                   />
@@ -86,7 +86,7 @@ function Work() {
                   target="_blank"
                 >
                   <img
-                    src="WinBig-Casino-Betting-App.png"
+                    src="WinBig-Casino-Betting-App.webp"
                     className="card-img-top img-fluid"
                     alt="..."
                   />
@@ -157,7 +157,7 @@ function Work() {
                   target="_blank"
                 >
                   <img
-                    src="Wine-Dine-Recipe-App.png"
+                    src="Wine-Dine-Recipe-App.webp"
                     className="card-img-top img-fluid"
                     alt="..."
                   />
@@ -213,7 +213,7 @@ function Work() {
                 </h3>
                 <a href="https://tech-notes-he04.onrender.com/" target="_blank">
                   <img
-                    src="Tech-Notes-Web-Design-Technology-Blog-Website.png"
+                    src="Tech-Notes-Web-Design-Technology-Blog-Website.webp"
                     className="card-img-top img-fluid"
                     alt="..."
                   />
@@ -279,7 +279,7 @@ function Work() {
                 </h3>
                 <a href="https://note-taker-s8qu.onrender.com/" target="_blank">
                   <img
-                    src="Note-Taker-App.png"
+                    src="Note-Taker-App.webp"
                     className="card-img-top img-fluid"
                     alt="..."
                   />
@@ -337,7 +337,7 @@ function Work() {
                   target="_blank"
                 >
                   <img
-                    src="Employee-Database-Application-in-VSCode-Terminal-screenshot.png"
+                    src="Employee-Database-Application-in-VSCode-Terminal-screenshot.webp"
                     className="card-img-top img-fluid"
                     alt="..."
                   />

@@ -109,7 +109,7 @@ button:focus-visible {
 
 /* ABOUT PAGE STYLES */
 #light #profile-image {
-  filter: drop-shadow(0 -25px 5em gold);
+  filter: drop-shadow(0 0 5em gold);
 }
 
 /* WORK PAGE CUSTOM STYLES */
@@ -165,12 +165,46 @@ textarea {
 }
 
 /* RESUME PAGE STYLES */
-#light #download-arrow {
+/* #light #download-arrow {
   height: 500px;
   padding: 1.5em;
   animation: slide-in 3000ms;
   animation-iteration-count: 1;
   filter: drop-shadow(0 0 2em #242424);
+} */
+
+/* RESUME PAGE CUSTOM STYLES */
+@keyframes slide-in {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+#light #resume-image {
+  animation: slide-in 3000ms;
+  animation-iteration-count: 1;
+  filter: drop-shadow(0 0 2em #242424);
+}
+
+#light #resume-button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #242424;
+  color: #7ed957;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+#light #resume-button:hover {
+  border-color: #469a21;
+  background-color: #469a21;
+  color: #fff;
 }
 
 /* FOOTER STYLES */
